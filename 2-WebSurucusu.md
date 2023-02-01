@@ -1,14 +1,14 @@
-WebDriver bir tarayıcıyı yerel olarak çalıştırır.
+# WebDriver bir tarayıcıyı yerel olarak çalıştırır.
 
-*Selenium WebDriver bir W3C Önerisidir.
+1.Selenium WebDriver bir W3C Önerisidir.
 
-*WebDriver, basit ve daha özlü bir programlama arabirimi olarak tasarlanmıştır.
+2.WebDriver, basit ve daha özlü bir programlama arabirimi olarak tasarlanmıştır.
 
-*WebDriver, kompakt bir nesne yönelimli API'dir.
+3.WebDriver, kompakt bir nesne yönelimli API'dir.
 
-*Tarayıcıyı etkili bir şekilde çalıştırır.
+4.Tarayıcıyı etkili bir şekilde çalıştırır.
 
-Başlangıç
+# Başlangıç
 
 Selenium, WebDriver kullanımıyla piyasadaki tüm büyük tarayıcıların otomasyonunu destekler. 
 WebDriver, web tarayıcılarının davranışını kontrol etmek için dilden bağımsız bir arabirim tanımlayan bir API ve protokoldür.
@@ -18,16 +18,16 @@ Sürücü, tarayıcıya yetki vermekten sorumlu bileşendir ve Selenium ile tara
 Selenyum kurulumu, diğer ticari araçların kurulumundan oldukça farklıdır.
 Selenium kodunu yazmaya başlamadan önce, seçtiğiniz dil için dil bağlama kitaplıklarını, kullanmak istediğiniz tarayıcıyı ve bu tarayıcının sürücüsünü kurmanız gerekir.
 
-Selenium WebDriver'ı kullanmaya başlamak için aşağıdaki bağlantıları izleyin.
+# Selenium WebDriver'ı kullanmaya başlamak için aşağıdaki bağlantıları izleyin.
 
-Bir Selenyum kitaplığı kurun
+## Bir Selenyum kitaplığı kurun
 Favori programlama diliniz için Selenyum kütüphanesini kurmak.
 
-Tarayıcı sürücülerini yükleyin
+## Tarayıcı sürücülerini yükleyin
 Bir tarayıcının otomatikleştirilmesine izin vermek için sisteminizi ayarlama.
 
-İlk Selenium betiğinizi yazın
+## İlk Selenium betiğinizi yazın
 Selenyum betiği oluşturmak için adım adım talimatlar.
 
-Selenium 4'e yükseltin
+## Selenium 4'e yükseltin
 Hala Selenium 3 kullanıyor musunuz? Bu kılavuz, en son sürüme geçmenize yardımcı olacaktır!
