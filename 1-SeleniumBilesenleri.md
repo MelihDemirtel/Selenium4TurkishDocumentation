@@ -2,18 +2,21 @@ WebDriver kullanarak bir test paketi oluşturmak, birkaç bileşeni anlamanızı
 Yazılımdaki her şeyde olduğu gibi, farklı kişiler aynı fikir için farklı terimler kullanır. 
 Aşağıda, bu açıklamada terimlerin nasıl kullanıldığına dair bir döküm bulunmaktadır.
 
-Terminoloji
+# Terminoloji
 
-*API: Uygulama Programlama Arayüzü. Bu, WebDriver'ı değiştirmek için kullandığınız "komutlar" kümesidir.
+## API: 
+Uygulama Programlama Arayüzü. Bu, WebDriver'ı değiştirmek için kullandığınız "komutlar" kümesidir.
 
-*Library(Kitaplık): API'leri ve bunları uygulamak için gerekli kodu içeren bir kod modülü. Kitaplıklar, her bir dil bağlamasına özeldir, örneğin Java için .jar dosyaları, 
-.NET için .dll dosyaları vb.
+## Library(Kitaplık):
+API'leri ve bunları uygulamak için gerekli kodu içeren bir kod modülü. Kitaplıklar, her bir dil bağlamasına özeldir, örneğin Java için .jar dosyaları, .NET için .dll dosyaları vb.
 
-*Driver(Sürücü): Gerçek tarayıcıyı kontrol etmekten sorumludur. Çoğu sürücü, tarayıcı satıcıları tarafından oluşturulur. 
+## Driver(Sürücü): 
+Gerçek tarayıcıyı kontrol etmekten sorumludur. Çoğu sürücü, tarayıcı satıcıları tarafından oluşturulur. 
 Sürücüler genellikle, test paketini yürüten sistemde değil, tarayıcının kendisiyle birlikte sistemde çalışan çalıştırılabilir modüllerdir. 
 (Ancak bunlar aynı sistem olabilir.) NOT: Bazı kişiler sürücülerden proxy olarak söz eder.
 
-*Framework(Çerçeve): WebDriver paketleri için destek olarak kullanılan ek bir kitaplık. Bu çerçeveler, JUnit veya NUnit gibi test çerçeveleri olabilir. 
+## Framework(Çerçeve):
+WebDriver paketleri için destek olarak kullanılan ek bir kitaplık. Bu çerçeveler, JUnit veya NUnit gibi test çerçeveleri olabilir. 
 Cucumber or Robotium gibi doğal dil özelliklerini destekleyen çerçeveler de olabilirler. 
 Çerçeveler ayrıca test edilen sistemin manipüle edilmesi veya yapılandırılması, veri oluşturulması, test kehanetleri vb. görevler için yazılabilir ve kullanılabilir.
 
@@ -37,7 +40,7 @@ Uzaktan iletişim, her ikisi de ana sistemdeki sürücüyle konuşan Selenium Se
 # Host-3:
 <p align="left"> <a href="https://www.selenium.dev/documentation/overview/components/" target="_blank" rel="noreferrer"> <img src="https://www.selenium.dev/images/documentation/webdriver/remote_comms_server.png" alt="host3" width="792" height="366"/> </a> </p>
 
-Frameworks
+# Frameworks
 WebDriver'ın yalnızca bir işi vardır: yukarıdaki yöntemlerden herhangi biri aracılığıyla tarayıcıyla iletişim kurmak. WebDriver test hakkında hiçbir şey bilmez.
 Bir şeyleri karşılaştırmayı, başarılı veya başarısız olduğunu söylemeyi bilmez ve kesinlikle raporlama veya Given/When/Then dilbilgisi hakkında hiçbir şey bilmez.
 
